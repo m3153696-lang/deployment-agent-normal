@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#17232d;font:15px Arial}main{max-width:1100px;margin:auto;padding:32px}header{display:flex;align-items:center;gap:20px;border-bottom:1px solid #cbd5dd;padding-bottom:18px}header button{margin-left:auto}h1{margin:3px 0}h2{font-size:19px}small{color:#667784;text-transform:uppercase;letter-spacing:.07em}.stats{display:flex;gap:12px;margin:22px 0}.stats b,section{background:#fff;border:1px solid #d8e1e7;border-radius:6px;padding:18px}.stats b{font-size:27px;flex:1}.stats small{font-size:11px}.grid{display:grid;grid-template-columns:1fr 1.2fr;gap:16px}label{display:block;text-transform:capitalize;margin:10px 0;font-weight:bold}input{display:block;width:100%;padding:9px;margin-top:5px;border:1px solid #b8c7d1;border-radius:4px}button{background:#164f63;color:#fff;border:0;border-radius:4px;padding:9px 12px;cursor:pointer}.scenario{margin:3px;background:#3c5664;text-transform:capitalize}.notice{background:#e2f0ed;padding:12px;border-radius:4px}.muted{color:#61707a}.incident{background:#fff1d8;border-left:3px solid #cf8d10;padding:9px}.history{display:grid;grid-template-columns:1.3fr 1.4fr .7fr 2fr;gap:8px;margin:8px 0;padding:12px}.SUCCESS{color:#13744a}.FAILED{color:#b52a2a}@media(max-width:700px){main{padding:18px}.grid{grid-template-columns:1fr}.stats{flex-direction:column}.history{grid-template-columns:1fr}}
+
+header>div{flex:1}header button{margin-left:0}
+.pill{padding:6px 12px;border-radius:99px;font-size:13px;font-weight:bold;cursor:pointer;border:1px solid}
+.pill.ok{background:#e1f4ea;color:#13744a;border-color:#9fd6b8}.pill.bad{background:#fbe7e7;color:#b52a2a;border-color:#e4a5a5}.pill.warn{background:#fff1d8;color:#8a5a00;border-color:#e6c47a}
+.notice{margin:12px 0}.notice.bad{background:#fbe7e7;color:#7d1f1f}
+.stats b{min-width:0}
+.badge{display:inline-block;margin-top:6px;padding:2px 8px;border-radius:99px;font-size:12px;background:#e6ebef;color:#40525e}
+.badge.hindsight_retained{background:#e1f4ea;color:#13744a}.badge.hindsight_unavailable{background:#fbe7e7;color:#b52a2a}
+.incident.hs{background:#e2f0ed;border-left-color:#164f63}
+.history{cursor:pointer}.history p{margin:0}
+h2 .sync{float:right;font-size:13px;padding:6px 10px}
+h4{margin:14px 0 6px}
+button:disabled{opacity:.5;cursor:not-allowed}
+.stats{flex-wrap:wrap}.stats b{flex:1 1 140px}
